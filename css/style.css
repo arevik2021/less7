@@ -1,0 +1,293 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@font-face {
+    font-family: 'Monomakh Unicode TT';
+    src: url(../fonts/MonomakhUnicodeTT.woff2) format('woff2'),
+        url(../fonts/MonomakhUnicodeTT.woff) format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ruslan Display';
+    src: url(../fonts/RuslanDisplay.woff2) format('woff2'),
+        url(../fonts/RuslanDisplay.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+/* работаем с шапкой и создаем кнопки */
+.block__header {
+	max-width: 100%;
+	height: 300px;
+	background-image: url(../img/red-chili-summer-market-seamless-pattern_10635-123.jpg);
+	}
+
+		nav {
+		width: 100%;
+		height: 150px;
+		padding-left: 30%;
+		text-align: middle;
+		word-spacing: 10px;
+		
+	}
+
+	.logo_img {
+		width: 10%;
+		border-radius: 50%;
+		margin-top: 40px;
+		margin-left: 150px;
+	}
+	.button {
+	background: #ca3f3fe7;
+	color: #fff;
+	border-radius: 20%;
+	box-shadow:4px 6px 9px rgb(167, 5, 5) ;
+	font-weight: 700;
+	padding: 15px 10px;
+	text-align: center;
+	display: inline-block;
+	max-width: 350px;
+	line-height: 23px;
+	font-size: 18px;
+	text-transform: uppercase;
+	
+}
+/* работаем с первым блоком основного контента */
+.block_text {
+	max-width: 100%;
+	height: 400px;
+	padding: 15px;
+	background: url(../img/fon2.jpg);
+	font-family: 'Monomakh Unicode TT';
+	font-size: 30px;
+	}
+
+.block_text>span {
+	color: #ce0a0a;
+}
+
+.text_img {
+	height: 350px;
+	float: left;
+	}
+
+
+/* работаем с вторым блоком основного контента */
+
+.block_two {
+	max-width: 100%;
+	height: 500px;
+	background: linear-gradient(to right, #77173e 6%,#e53d2d 29%,#eda12f 48%,#edd925 73%,#7dd877 89%,#7ee8d6 96%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77173e', endColorstr='#7ee8d6',GradientType=1 ); 
+	padding: 80px;
+}
+
+.block_two_text {
+	max-width: 800px;
+	height: 500px;
+	color: #fff;
+	font-size: 30px;
+	margin-left: 150px;
+	font-family: 'Ruslan Display';
+}
+
+.secret {
+	max-width: 100%;
+	height: 800px;
+	background: #ffffff url(../img/pozitivnye_kartinki_2.jpg) space;
+	
+}
+
+.secret {
+	opacity: 0;
+	transition: all 0.3s ease 0s;
+	}
+
+.secret:hover {
+	opacity: 1;
+	visibility: visible;
+}
+
+.block_text_three {
+	max-width: 100%;
+	height: 500px;
+	margin-left: 30px;
+	background: url(../img/120790980.jpg);
+	color: #fff;
+	font-size: 30px;
+	font-family: 'Ruslan Display';
+}
+
+.text_red {
+	max-width: 300px;
+}
+
+.text_red>span {
+	color: #74fc3f;
+}
+
+.text_block_img {
+	max-width: 100%;
+	height: 300px;
+	margin: 30px;
+	color: #e71c1c;
+	text-shadow: 2px 3px 3px #000;
+	font-size: 50px;
+	font-family: 'Ruslan Display';
+	background: url(../img/leaves-background-with-metallic-foil_79603-956.jpg);
+	background-attachment: local;
+	overflow: scroll;
+}
+
+.text_block_img>span {
+	color: royalblue;
+}
+
+.block_fon_text {
+	max-width: 100%;
+	height: 950px;
+	background: url(../img/рамка.jpg) repeat-y;
+}
+
+.fon_text1 {
+	max-width: 250px;
+	height: 200px;
+	padding-top: 80px;
+	padding-left: 60px;
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+	text-align: center;
+	
+}
+
+.fon_text2 {
+	max-width: 250px;
+	height: 200px;
+	padding-top: 99px;
+	padding-left: 60px;
+	margin-top: 95px;
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+	text-align: center;
+}
+
+
+.fon_text3 {
+	max-width: 300px;
+	height: 200px;
+	padding-top: 99px;
+	padding-left: 60px;
+	margin-top: 130px;
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+	text-align: center;
+}
+
+.game_text {
+	max-width: 100%;
+	height: 300px;
+	margin: 30px;
+	color: #094cdb;
+	font-size: 40px;
+	font-family: 'Ruslan Display';
+		
+}
+
+.game_text>span {
+	color: rgb(7, 5, 22);
+	font-size: 15px;
+	font-family: 'Monomakh Unicode TT';
+	text-decoration:underline ;
+}
+
+.fon_img_one {
+	max-width: 800px;
+	height: 600px;
+	background: url(../img/1559287388_1.jpg);
+}
+
+.fon_img_text {
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Ruslan Display';
+}
+
+.fon_img_text {
+	opacity: 0;
+	transition: all 0.3s ease 0s;
+}
+
+.fon_img_text:hover {
+	opacity: 1;
+	visibility: visible;
+}
+
+.block_one_img {
+	max-width: 800px;
+	height: 700px;
+}
+.one_img {
+	width: 80%;
+	}
+
+.fon_img_two {
+	max-width: 700px;
+	height: 390px;
+	background: url(../img/151228734716354229.jpg);
+}
+
+.fon_img_three {
+	max-width: 600px;
+	height: 600px;
+	margin-top: 50px;
+	background: url(../img/1512287116170789549.jpg);
+}
+
+.fon_img_four {
+	max-width: 480px;
+	height: 600px;
+	margin-top: 50px;
+	background: url(../img/image-10-02-21-11-18.jpeg);
+}
+.block_footer {
+	max-width: 100%;
+	height: 400px;
+}
+
+.footer_text {
+	text-align: right;
+	font-size: 30px;
+	font-family: 'Ruslan Display';
+}
